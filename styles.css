@@ -1,0 +1,146 @@
+body {
+  background-color: rgba(50, 50, 20, .7);
+  background-size: 1080px;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 2 auto;
+}
+
+@media screen and (min-width: 320px) {
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  a {
+    color: crimson;
+    text-decoration: none;
+    font-family: fantasy;
+    padding-right: 250px;
+    font-weight: bold;
+  }
+  a:hover {
+    color: red;
+  }
+  .ul {
+    margin: 0;
+    list-style-type: none;
+  }
+  .li {
+    margin: 0;
+    list-style-type: none;
+    float: left;
+  }
+  /* Layout
+------------------------------------------*/
+  header {
+    margin: 0 auto;
+    width: 88%;
+    max-width: 1080px;
+  }
+  .box {
+    padding: .5em .5em .5em .5em;
+    background: #ffffff;
+  }
+  footer {
+    margin: 0 auto;
+    width: 88%;
+  }
+  .wrapper {
+    padding: 1em 0;
+    background: #ffffff;
+  }
+  .background {
+    background: url(images/IMG_2838.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #contact {
+    min-width: 100px;
+    column-width: 200px;
+  }
+  h1 {
+    font-family: fantasy;
+    font-size: 36px;
+  }
+  h2, h5, h3, h4 {
+    font-family: fantasy;
+    font-size: 24px
+  }
+  .summary {
+    color: rgba(250, 50, 50, 50, 0.5);
+    height: 200px;
+    width: 50px;
+  }
+@media screen and (min-width:48em) {
+    /* 48 * 16 = 768px */
+
+    #employment {
+      width: 80%;
+    }
+
+    h6, h7, h8, h9, h10 {
+      font-family: fantasy;
+      font-size: 20px;
+    }
+
+
+   .wrapper2 {
+      padding: 1em 0;
+      backgorund: #ffffff;
+    }
+    .wrapper3 {
+      padding: 1em 0;
+      backgorund: #ffffff;
+    }
+    .wrapper4 {
+      padding: 1em 0;
+      background: #ffffff;
+    }
+
+  /*.box1 { background: url(images/georgia1.png);
+  width: 200px;
+  height:300px;
+}
+
+.box2 { background: url(images/georgia3.png);
+  width: 200px;
+  height:300px;
+  position: relative;
+  left: 200px;
+  bottom: 300px;
+}
+
+.box3 {  background: url(images/georgia4.png);
+  width: 200px;
+  height:300px;
+  position: relative;
+  left: 400px;
+  bottom: 600px;
+}*/
+
+    .container2 {
+      background: white;
+      padding: 1.5em 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+    .container4 {
+      background: white;
+      padding: 0 .5em .5em .5em;
+      display: flex;
+      justify-content: space-between;
+    }
+
+}
+
+}
+
+
+/* leave this */
