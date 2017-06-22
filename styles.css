@@ -4,14 +4,18 @@ body {
   font-size: 16px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   margin: 2 auto;
+
+
 }
+.img {
+  width: 100%;
+  height: auto;
+}
+
 
 @media screen and (min-width: 320px) {
 
-  .img {
-    width: 100%;
-    height: auto;
-  }
+
 
 
 
@@ -36,6 +40,11 @@ body {
   }
   /* Layout
 ------------------------------------------*/
+  .container {
+    text-align: justify;
+
+
+  }
   header {
     margin: 0 auto;
     width: 88%;
@@ -58,6 +67,7 @@ body {
     min-height: 600px;
     background-attachment: fixed;
     background-size: cover;
+    border: 4px solid white;
   }
   #contact {
     min-width: 100px;
@@ -65,19 +75,29 @@ body {
   }
   h1 {
     font-family: fantasy;
-    font-size: 36px;
+    font-size: 40px;
   }
   h2, h5, h3, h4 {
     font-family: fantasy;
     font-size: 24px
+  }
+  .container1,
+  .container3 {
+    padding: 1em 1em;
   }
   .summary {
     color: rgba(250, 50, 50, 50, 0.5);
     height: 200px;
     width: 50px;
   }
-@media screen and (min-width:48em) {
-    /* 48 * 16 = 768px */
+
+.container2 {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
 
     #employment {
       width: 80%;
@@ -89,18 +109,8 @@ body {
     }
 
 
-   .wrapper2 {
-      padding: 1em 0;
-      backgorund: #ffffff;
-    }
-    .wrapper3 {
-      padding: 1em 0;
-      backgorund: #ffffff;
-    }
-    .wrapper4 {
-      padding: 1em 0;
-      background: #ffffff;
-    }
+
+
 
   /*.box1 { background: url(images/georgia1.png);
   width: 200px;
@@ -122,23 +132,73 @@ body {
   left: 400px;
   bottom: 600px;
 }*/
-
+@media screen and (min-width:48em) {
+    /* 48 * 16 = 768px */
     .container2 {
       background: white;
       padding: 1.5em 0;
-      display: flex;
+      flex-direction:row;
       justify-content: space-between;
-    }
-
-
-    .container4 {
-      background: white;
-      padding: 0 .5em .5em .5em;
-      display: flex;
-      justify-content: space-between;
+      overflow: hidden;
+      margin:0;
+      border: 4px solid white;
     }
 
 }
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box5 img,
+.box6 img,
+.box7 img,
+.box8 img,
+.box9 img,
+.box10 img,
+.box11 img,
+.box12 img,
+.box13 img,
+.box14 img,
+.box15 img,
+.box16 img,
+.box17 img,
+.box18 img {
+  diplay: block;
+  overflow: hidden;
+  /*max-width: 300px;*/
+}
+
+.container4 {
+  background: white;
+  padding: .5em .5em .5em .5em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: center;
+  overflow: hidden;
+  margin: 0;
+  flex-wrap:wrap;
+
+}
+
+
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16,
+.box17,
+.box18 {
+  diplay: flex;
+}
+
+
+
+
 
 }
 
