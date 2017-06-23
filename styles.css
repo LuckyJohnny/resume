@@ -26,6 +26,7 @@ body {
     font-family: fantasy;
     padding-right: 250px;
     font-weight: bold;
+    display:inline-block;
   }
   a:hover {
     color: red;
@@ -104,7 +105,7 @@ body {
       width: 80%;
     }
 
-    h6, h7, h8, h9, h10 {
+    h5 {
       font-family: fantasy;
       font-size: 20px;
     }
